@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="api/script.js"></script>
+    <title>Busca Cep!</title>
+</head>
+
+<body>
+    <header>
+        <h1>Consulta de Endereço</h1>
+    </header>
+
+
+    <main>
+
+        <div class="banner">
+            <label for="label">Digite seu cep:</label>
+            <input placeholder="Exemplo: 00000000" type="number" id="cep" name="cep" required>
+            <button onclick="consultaEnderecos()">Confirmar</button>
+            <div id="resultado">
+                <p>Aguardando cep!</p>
+            </div><!--resultado-->
+        </div><!--banner-->
+    </main>
+
+</body>
+
+</html>

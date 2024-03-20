@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #E8F1F2; /* Cor de fundo para a página */
+    
+}
+header{
+    background-color: #fff;
+  
+}
+
+header h1{
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+main {
+    font-size: 25px;
+    font-family: Cambria 'Times New Roman';
+}
+
+.banner{
+    border-radius: 40px;
+    display: flex;
+    background-color: #b8c8d8;
+    padding: 100px;/*Expandir background*/
+    justify-content: center;
+    align-items: center;
+    position: relative;/*Permitir movimentação do elemento*/
+    margin: 20vh auto;/*Centralizar*/
+    width: 70%;/*Largura*/  
+    border: 1px solid #54585e
+}
+
+.banner label{
+    font-size: 16px;
+    padding: 5px 10px; /* Adiciona espaço interno para o texto */
+}
+
+.banner input{
+    border: 1px solid #ccc; /* Cor da borda */
+    background-color: #f4f4f4; /* Cor de fundo */
+    padding: 8px; /* Espaçamento interno */
+    border-radius: 5px; /* Arredondamento dos cantos */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333; /* Cor do texto */
+    outline: none; /* Remove o contorno padrão */
+    border-color: #66afe9; /* Cor da borda quando em foco */
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.5); /* Sombra ao focar */
+    color: #999; /* Cor do texto do espaço reservado */
+}
+
+/* Estilos básicos para o botão */
+.banner button {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 8px 20px; /* Espaçamento interno */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Arredondamento dos cantos */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilos de hover para quando o mouse passa sobre o botão */
+.banner button:hover {
+    background-color: #45a049; /* Cor de fundo alterada */
+}
+
+/* Estilos de foco para quando o botão está em foco */
+.banner button:focus {
+    outline: none; /* Remove o contorno padrão */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Sombra ao focar */
+}
+
+/* Estilos de desabilitado para quando o botão está desabilitado */
+.banner button:disabled {
+    opacity: 0.5; /* Opacidade reduzida */
+    cursor: not-allowed; /* Cursor não permitido */
+}
+.banner {
+    display: flex; /* Ativa o modelo de layout flexbox */
+    flex-direction: column; /* Organiza os itens em uma coluna */
+}
+.banner label,
+.banner input,
+.banner button {
+    display: inline-block; /* Coloca os elementos em linha */
+    margin-bottom: 10px; /* Adiciona espaçamento entre os elementos */
+}
+
+#resultado {
+    margin-top: 20px; /* Adiciona espaço acima do resultado */
+}
